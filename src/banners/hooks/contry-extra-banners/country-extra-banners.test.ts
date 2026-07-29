@@ -3,7 +3,7 @@ import { vi, describe, it, expect, beforeEach } from "vitest";
 import { useCountryExtraBanners } from "./country-extra-banners";
 import { BannersService } from "../../service/banners-service";
 import { BannerCountry, BannerSize, BannerType, AnyBanner } from "../../../types/banners";
-import { FutballeroUIStorage } from "../../../storage";
+import { FootballProjectUIStorage } from "../../../storage";
 
 const arWideExtraBanner: AnyBanner = {
   id: "ntnfutbol-ar-wide",
@@ -22,7 +22,7 @@ const arNarrowExtraBanner: AnyBanner = {
 };
 
 describe("useCountryExtraBanners", () => {
-  let mockStorage: FutballeroUIStorage;
+  let mockStorage: FootballProjectUIStorage;
   let bannerService: BannersService;
   const countryApiHost = "https://api.country.is";
 

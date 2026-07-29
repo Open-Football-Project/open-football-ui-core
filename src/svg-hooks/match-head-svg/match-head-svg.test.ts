@@ -145,7 +145,7 @@ describe("buildMatchInfoSvgString", () => {
 
   it("includes footer brand", () => {
     const svg = buildMatchInfoSvgString(baseData());
-    expect(svg).toContain("futballero.com");
+    expect(svg).toContain("footballproject.org");
   });
 
   it("truncates long team names", () => {

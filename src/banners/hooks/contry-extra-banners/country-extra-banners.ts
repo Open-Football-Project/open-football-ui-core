@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { AnyBanner, BannerCountry, BannerSize } from "../../../types/banners";
-import { FutballeroUIStorage } from "../../../storage";
+import { FootballProjectUIStorage } from "../../../storage";
 import { BannersService } from "../../service/banners-service";
 
 export const useCountryExtraBanners = (
   size: BannerSize,
   countryApiHost: string,
-  storage: FutballeroUIStorage,
+  storage: FootballProjectUIStorage,
   bannerService: BannersService,
   enabled = true,
 ): AnyBanner[] => {

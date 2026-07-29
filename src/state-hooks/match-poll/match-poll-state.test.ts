@@ -1,7 +1,7 @@
 import { renderHook, act, waitFor } from "@testing-library/react";
 import { vi, describe, it, expect, beforeEach } from "vitest";
 import { useMatchPollsState } from "./match-poll-state";
-import { FutballeroUIStorage } from "../../storage";
+import { FootballProjectUIStorage } from "../../storage";
 
 describe("useMatchPollsState", () => {
   const mockVote = vi.fn();
@@ -16,7 +16,7 @@ describe("useMatchPollsState", () => {
   const optionName = "home";
   const pollStorageKey = `${fixtureId}-${pollKey}`;
 
-  let mockStorage: FutballeroUIStorage & { stMap: Map<string, string> };
+  let mockStorage: FootballProjectUIStorage & { stMap: Map<string, string> };
 
   beforeEach(() => {
     vi.clearAllMocks();

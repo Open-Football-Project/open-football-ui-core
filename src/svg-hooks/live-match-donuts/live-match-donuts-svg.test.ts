@@ -100,10 +100,10 @@ describe("buildLiveIndicatorsSvgString", () => {
     );
   });
 
-  it("includes futballero.com branding in the footer", () => {
+  it("includes footballproject.org branding in the footer", () => {
     const svg = buildSvg();
 
-    expect(svg).toContain("futballero.com");
+    expect(svg).toContain("footballproject.org");
   });
 
   it("includes all three indicator labels", () => {

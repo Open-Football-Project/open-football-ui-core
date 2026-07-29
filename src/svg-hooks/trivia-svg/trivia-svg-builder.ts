@@ -126,7 +126,7 @@ export const buildTriviaSvg = (
     ? renderGameOptions(options, optionsStartY, w)
     : "";
 
-  const footer = triviaSVGText("futballero.com", w / 2, h - 10, {
+  const footer = triviaSVGText("footballproject.org", w / 2, h - 10, {
     fill: SvgReportsColors.TRIVIA_ORANGE,
     size: 14,
     weight: "bold",

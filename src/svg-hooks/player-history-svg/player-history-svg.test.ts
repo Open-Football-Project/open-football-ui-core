@@ -193,7 +193,7 @@ describe("TransfersSvgStrategy", () => {
       expect(svg).toContain("Transfer History");
       expect(svg).toContain("Lionel Messi");
       expect(svg).toContain("Real Madrid");
-      expect(svg).toContain("futballero.com");
+      expect(svg).toContain("footballproject.org");
     });
 
     it("shows player photo", () => {

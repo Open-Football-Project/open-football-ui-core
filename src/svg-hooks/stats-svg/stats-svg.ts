@@ -126,7 +126,7 @@ export function buildTeamStatsSvgString(data: TeamStatsSvgData): string {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "futballero.com",
+      "footballproject.org",
     ),
   );
 

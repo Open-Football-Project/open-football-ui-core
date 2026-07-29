@@ -3,7 +3,7 @@ import { vi, describe, it, expect, beforeEach } from "vitest";
 import { useCountryBanners } from "./country-banners";
 import { BannersService } from "../../service/banners-service";
 import { BannerCountry, BannerSize, BannerType, AnyBanner } from "../../../types/banners";
-import { FutballeroUIStorage } from "../../../storage";
+import { FootballProjectUIStorage } from "../../../storage";
 
 const arWideBanner: AnyBanner = {
   id: "betsson-ar-1",
@@ -20,7 +20,7 @@ const arNarrowBanner: AnyBanner = {
 };
 
 describe("useCountryBanners", () => {
-  let mockStorage: FutballeroUIStorage;
+  let mockStorage: FootballProjectUIStorage;
   let bannerService: BannersService;
   const countryApiHost = "https://api.country.is";
 

@@ -99,7 +99,7 @@ function footerItems(footerY: number): string[] {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "futballero.com",
+      "footballproject.org",
     ),
   ];
 }

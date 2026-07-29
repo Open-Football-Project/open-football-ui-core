@@ -1,4 +1,4 @@
-# 🖥️ MatchInsights UI Core
+# 🖥️ Open Football Project UI Core
 
 Hooks, API Service, Translations and Storage ready to use.
 

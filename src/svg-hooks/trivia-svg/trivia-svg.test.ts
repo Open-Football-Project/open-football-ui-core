@@ -178,7 +178,7 @@ describe("buildTriviaSvg", () => {
 
   it("includes the footer brand text", () => {
     const result = buildTriviaSvg("T", "S", 1, 52, () => "");
-    expect(result).toContain("futballero.com");
+    expect(result).toContain("footballproject.org");
   });
 });
 

@@ -2,13 +2,13 @@ import { describe, it, expect, vi, beforeEach, Mock } from "vitest";
 import axios from "axios";
 import { bannersManager } from "./bannersManager";
 import { BannerCountry, BannerSize } from "../../types/banners";
-import { FutballeroUIStorage } from "../../storage";
+import { FootballProjectUIStorage } from "../../storage";
 
 vi.mock("axios");
 const mockedAxios = axios as unknown as { get: Mock };
 
 describe("bannersManager", () => {
-  let mockStorage: FutballeroUIStorage & { stmap: Map<string, string> };
+  let mockStorage: FootballProjectUIStorage & { stmap: Map<string, string> };
   const countryApiHost = "https://api.country.is";
 
   beforeEach(() => {

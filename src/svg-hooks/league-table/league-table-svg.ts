@@ -220,7 +220,7 @@ function renderFooter(teamCount: number): string[] {
       SvgReportsColors.ORANGE,
       LeagueTableFontSizes.FOOTER,
       "bold",
-      "futballero.com",
+      "footballproject.org",
     ),
   ];
 }

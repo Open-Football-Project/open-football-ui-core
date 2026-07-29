@@ -270,7 +270,7 @@ export function buildMatchEventsSvgString(data: MatchEventsSvgData): string {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "futballero.com",
+      "footballproject.org",
     ),
   );
 

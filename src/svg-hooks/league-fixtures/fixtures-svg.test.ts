@@ -229,7 +229,7 @@ describe("buildFixtureSvgString", () => {
 
   it("includes the footer branding", () => {
     const svg = buildFixtureSvgString(makeRound(), "League");
-    expect(svg).toContain("futballero.com");
+    expect(svg).toContain("footballproject.org");
   });
 
   it("uses alternating row backgrounds across days", () => {

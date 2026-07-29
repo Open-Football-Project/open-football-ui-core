@@ -87,7 +87,7 @@ export const buildPlayerHistorySvgString = (
     })
     .join("");
 
-  const footer = playerHistorySVGText("futballero.com", w / 2, h - 10, {
+  const footer = playerHistorySVGText("footballproject.org", w / 2, h - 10, {
     fill: SvgReportsColors.TRIVIA_ORANGE,
     size: 14,
     weight: "bold",

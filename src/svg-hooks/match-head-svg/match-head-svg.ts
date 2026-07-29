@@ -316,7 +316,7 @@ export function buildMatchInfoSvgString(data: MatchInfoSvgData): string {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "futballero.com",
+      "footballproject.org",
     ),
   );
 

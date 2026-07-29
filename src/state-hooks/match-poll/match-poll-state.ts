@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { ApiService } from "../../api-service";
-import { FutballeroUIStorage } from "../../storage";
+import { FootballProjectUIStorage } from "../../storage";
 import { VotingPoll } from "../../types";
 
 const generatePollKey = (fixtureId: number, pollKey: string) =>
   `${fixtureId}-${pollKey}`;
 
 export const useMatchPollsState = (
-  storage: FutballeroUIStorage,
+  storage: FootballProjectUIStorage,
   apiService: ApiService,
   fixtureId: number,
   pollKey: string

@@ -170,7 +170,7 @@ function renderFooter(y: number): string[] {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "futballero.com",
+      "footballproject.org",
     ),
   ];
 }
