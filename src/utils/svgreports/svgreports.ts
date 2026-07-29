@@ -1,3 +1,5 @@
+export const SITE_DOMAIN = "footballproject.org";
+
 export const enum SvgReportsFonts {
   DEFAULT = "Roboto, Arial, sans-serif",
 }

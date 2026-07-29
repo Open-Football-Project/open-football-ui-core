@@ -7,6 +7,7 @@ import {
   MatchEventDetail,
   MatchEventType,
   SvgReportsColors,
+  SITE_DOMAIN,
 } from "../../utils";
 
 import { MatchEvent } from "../../types";
@@ -270,7 +271,7 @@ export function buildMatchEventsSvgString(data: MatchEventsSvgData): string {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "footballproject.org",
+      SITE_DOMAIN,
     ),
   );
 

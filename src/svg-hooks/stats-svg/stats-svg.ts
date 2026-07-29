@@ -5,6 +5,7 @@ import {
   svgHLine,
   escapeXml,
   SvgReportsColors,
+  SITE_DOMAIN,
 } from "../../utils";
 
 import { TeamStatistic } from "../../types";
@@ -126,7 +127,7 @@ export function buildTeamStatsSvgString(data: TeamStatsSvgData): string {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "footballproject.org",
+      SITE_DOMAIN,
     ),
   );
 

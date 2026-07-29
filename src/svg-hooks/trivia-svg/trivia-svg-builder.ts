@@ -2,6 +2,7 @@ import {
   SvgReportsColors,
   SvgReportsFonts,
   escapeXml,
+  SITE_DOMAIN,
 } from "../../utils/svgreports/svgreports";
 
 export const GAME_SVG_WIDTH = 800;
@@ -126,7 +127,7 @@ export const buildTriviaSvg = (
     ? renderGameOptions(options, optionsStartY, w)
     : "";
 
-  const footer = triviaSVGText("footballproject.org", w / 2, h - 10, {
+  const footer = triviaSVGText(SITE_DOMAIN, w / 2, h - 10, {
     fill: SvgReportsColors.TRIVIA_ORANGE,
     size: 14,
     weight: "bold",

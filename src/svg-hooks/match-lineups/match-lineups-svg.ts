@@ -1,4 +1,5 @@
 import { LineupPlayer, TeamLineup } from "../../types";
+import { SITE_DOMAIN } from "../../utils/svgreports/svgreports";
 
 export const MATCH_LINEUPS_SVG_W = 540;
 export const MATCH_LINEUPS_SVG_H = 740;
@@ -146,7 +147,7 @@ export const buildMatchLineupsSvgString = (
 
   <!-- Footer -->
   <rect x="0" y="${footerY}" width="${MATCH_LINEUPS_SVG_W}" height="${FOOTER_H}" fill="rgba(0,0,0,0.45)"/>
-  <text x="${cx}" y="${footerY + 24}" text-anchor="middle" font-size="16" fill="#FF6B00" font-family="Arial, sans-serif" font-weight="bold">footballproject.org</text>
+  <text x="${cx}" y="${footerY + 24}" text-anchor="middle" font-size="16" fill="#FF6B00" font-family="Arial, sans-serif" font-weight="bold">${SITE_DOMAIN}</text>
   <text x="${cx}" y="${footerY + 40}" text-anchor="middle" font-size="10" fill="#555555" font-family="Arial, sans-serif">Live Football Scores &amp; Stats</text>
 </svg>`;
 };

@@ -5,6 +5,7 @@ import {
   LiveMatchIndicatorsDonutTrKeys,
   LiveMatchIndicatorsDonutVerdictThresholds,
 } from "../../types";
+import { SITE_DOMAIN } from "../../utils/svgreports/svgreports";
 
 export const LIVE_MATCH_DONUTS_SVG_W = 540;
 export const LIVE_MATCH_DONUTS_SVG_H = 200;
@@ -131,6 +132,6 @@ export const buildLiveIndicatorsDonutsSvgString = (
   <line x1="${COL_W * 2}" y1="0" x2="${COL_W * 2}" y2="${LIVE_MATCH_DONUTS_SVG_H}" stroke="${brand.divider}" stroke-width="1"/>
   ${columns}
   <line x1="0" y1="180" x2="${LIVE_MATCH_DONUTS_SVG_W}" y2="180" stroke="${brand.divider}" stroke-width="1"/>
-  <text x="${LIVE_MATCH_DONUTS_SVG_W / 2}" y="194" text-anchor="middle" font-size="10" fill="${YELLOW}" font-weight="bold" font-family="sans-serif">footballproject.org</text>
+  <text x="${LIVE_MATCH_DONUTS_SVG_W / 2}" y="194" text-anchor="middle" font-size="10" fill="${YELLOW}" font-weight="bold" font-family="sans-serif">${SITE_DOMAIN}</text>
 </svg>`;
 };

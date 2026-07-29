@@ -2,6 +2,7 @@ import {
   SvgReportsColors,
   SvgReportsFonts,
   escapeXml,
+  SITE_DOMAIN,
 } from "../../utils/svgreports/svgreports";
 import {
   PlayerSvgStrategy,
@@ -87,7 +88,7 @@ export const buildPlayerHistorySvgString = (
     })
     .join("");
 
-  const footer = playerHistorySVGText("footballproject.org", w / 2, h - 10, {
+  const footer = playerHistorySVGText(SITE_DOMAIN, w / 2, h - 10, {
     fill: SvgReportsColors.TRIVIA_ORANGE,
     size: 14,
     weight: "bold",
