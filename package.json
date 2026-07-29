@@ -1,5 +1,5 @@
 {
-  "name": "@matchinsights/core",
+  "name": "open-football-project-core",
   "version": "16.2.0",
   "description": "Ready to use functionality",
   "private": true,
@@ -17,16 +17,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MatchInsights/match-insights-ui-core.git"
+    "url": "git+https://github.com/Open-Football-Project/open-football-ui-core.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/MatchInsights/match-insights-ui-core/issues"
+    "url": "https://github.com/Open-Football-Project/open-football-ui-core/issues"
   },
-  "homepage": "https://github.com/MatchInsights/match-insights-ui-core#readme",
+  "homepage": "https://github.com/Open-Football-Project/open-football-ui-core#readme",
   "dependencies": {
     "axios": "^1.13.2",
     "date-fns": "^4.1.0",

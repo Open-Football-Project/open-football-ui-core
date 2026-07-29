@@ -177,7 +177,7 @@ describe("player-svg", () => {
         playerPhoto: "",
       };
       const svg = buildPlayerCardSvgString(data, labels);
-      expect(svg).toContain("futballero.com");
+      expect(svg).toContain("footballproject.org");
     });
 
     it("should include stats if provided", () => {

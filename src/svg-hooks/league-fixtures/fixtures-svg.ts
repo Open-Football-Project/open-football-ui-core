@@ -14,6 +14,7 @@ import {
   escapeXml,
   getFormattedDate,
   getFormattedTime,
+  SITE_DOMAIN,
 } from "../../utils";
 
 export const FIXTURE_SVG_W = 620;
@@ -170,7 +171,7 @@ function renderFooter(y: number): string[] {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "futballero.com",
+      SITE_DOMAIN,
     ),
   ];
 }

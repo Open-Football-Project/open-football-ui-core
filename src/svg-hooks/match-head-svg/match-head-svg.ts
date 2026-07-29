@@ -5,6 +5,7 @@ import {
   svgHLine,
   escapeXml,
   SvgReportsColors,
+  SITE_DOMAIN,
 } from "../../utils";
 
 export const MATCH_INFO_SVG_W = 480;
@@ -316,7 +317,7 @@ export function buildMatchInfoSvgString(data: MatchInfoSvgData): string {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "futballero.com",
+      SITE_DOMAIN,
     ),
   );
 

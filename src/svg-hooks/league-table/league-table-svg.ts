@@ -6,6 +6,7 @@ import {
   svgImage,
   svgHLine,
   escapeXml,
+  SITE_DOMAIN,
 } from "../../utils";
 
 const HEADER_LOGO_X = 15;
@@ -220,7 +221,7 @@ function renderFooter(teamCount: number): string[] {
       SvgReportsColors.ORANGE,
       LeagueTableFontSizes.FOOTER,
       "bold",
-      "futballero.com",
+      SITE_DOMAIN,
     ),
   ];
 }

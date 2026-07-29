@@ -1,5 +1,5 @@
 import axios from "axios";
-import { FutballeroUIStorage } from "../../storage";
+import { FootballProjectUIStorage } from "../../storage";
 import { AnyBanner, BannerCountry, BannerSize } from "../../types/banners";
 import { countryBannerProviders } from "../provider/country-banner-provider";
 import { globalBannerProviders } from "../provider/global-banner-provider";
@@ -13,7 +13,7 @@ interface CountryApiResponse {
 
 export const bannersManager = (
   countryApiHost: string,
-  storage: FutballeroUIStorage
+  storage: FootballProjectUIStorage
 ) => {
   const getCountryCode = async (): Promise<string | null> => {
     const cached = await storage.get(cacheKey);

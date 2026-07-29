@@ -88,7 +88,7 @@ describe("buildMatchEventsSvgString", () => {
 
   it("includes footer brand", () => {
     const svg = buildMatchEventsSvgString(baseData());
-    expect(svg).toContain("futballero.com");
+    expect(svg).toContain("footballproject.org");
   });
 
   it("renders a row for each event", () => {

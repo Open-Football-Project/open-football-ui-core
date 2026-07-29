@@ -190,9 +190,9 @@ describe("buildBracketSvgString", () => {
     expect(orangeLines).toBeNull();
   });
 
-  it("includes the footer with futballero.com", () => {
+  it("includes the footer with footballproject.org", () => {
     const svg = buildBracketSvgString(singleRound, 1, 400, "L", t);
-    expect(svg).toContain("futballero.com");
+    expect(svg).toContain("footballproject.org");
   });
 
   it("uses the t function for round labels", () => {

@@ -1,8 +1,8 @@
-import { FutballeroUIStorage } from ".";
+import { FootballProjectUIStorage } from ".";
 
 const inMemory = new Map<string, string>();
 
-export const webStorage: FutballeroUIStorage = {
+export const webStorage: FootballProjectUIStorage = {
   async get(key) {
     return inMemory.get(key) ?? null;
   },

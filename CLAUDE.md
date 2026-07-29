@@ -1,4 +1,4 @@
-# Claude Code Instructions: match-insights-ui-core
+# Claude Code Instructions: open-football-ui-core
 
 ## Development method: TDCG
 
@@ -25,6 +25,6 @@ Every feature or behavior change follows this loop. Do not skip steps. Ask befor
 
 ## Project
 
-Shared hooks, API service clients, translations, and storage abstractions for the footballproject platform, consumed by the web frontend and the React Native mobile app. Published as `@matchinsights/core`.
+Shared hooks, API service clients, translations, and storage abstractions for the footballproject platform, consumed by the web frontend and the React Native mobile app. Published as `open-football-project-core`.
 
 Method reference: [`TDCG/README.md`](TDCG/README.md)

@@ -1,4 +1,5 @@
 import { BracketNode, LegScore, Tie } from "../../utils/league-fixture/general/league-fixture-general-utils";
+import { SITE_DOMAIN } from "../../utils/svgreports/svgreports";
 
 export const SVG_W    = 1200;
 export const PAD_X    = 20;
@@ -152,7 +153,7 @@ export function buildBracketSvgString(
   ${parts.join("\n")}
   <rect x="0" y="${svgH - FOOTER_H}" width="${SVG_W}" height="${FOOTER_H}" fill="rgba(0,0,0,0.45)"/>
   <text x="${SVG_W / 2}" y="${svgH - FOOTER_H + 24}" text-anchor="middle" fill="#FF6B00"
-    font-size="16" font-family="Arial, sans-serif" font-weight="bold">futballero.com</text>
+    font-size="16" font-family="Arial, sans-serif" font-weight="bold">${SITE_DOMAIN}</text>
   <text x="${SVG_W / 2}" y="${svgH - FOOTER_H + 40}" text-anchor="middle" fill="#555555"
     font-size="10" font-family="Arial, sans-serif">Live Football Scores &amp; Stats</text>
 </svg>`;

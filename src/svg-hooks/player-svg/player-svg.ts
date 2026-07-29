@@ -6,6 +6,7 @@ import {
   escapeXml,
   SvgReportsColors,
   SvgReportsFonts,
+  SITE_DOMAIN,
 } from "../../utils";
 
 export const PLAYER_CARD_SVG_W = 280;
@@ -99,7 +100,7 @@ function footerItems(footerY: number): string[] {
       SvgReportsColors.ORANGE,
       14,
       "bold",
-      "futballero.com",
+      SITE_DOMAIN,
     ),
   ];
 }

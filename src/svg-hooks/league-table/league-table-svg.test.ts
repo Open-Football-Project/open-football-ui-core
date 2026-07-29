@@ -62,7 +62,7 @@ describe("league-table-svg module", () => {
     expect(result).toContain(">30<");
     expect(result).toContain("A&amp;B UNITED");
 
-    expect(result).toContain("futballero.com");
+    expect(result).toContain("footballproject.org");
 
     expect(result.match(/fill="#22c55e"/g)?.length).toBe(2);
     expect(result.match(/fill="#eab308"/g)?.length).toBe(1);
