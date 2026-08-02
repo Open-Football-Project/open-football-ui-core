@@ -1,6 +1,6 @@
 {
   "name": "open-football-project-core",
-  "version": "16.2.0",
+  "version": "16.16.1",
   "description": "Ready to use functionality",
   "private": true,
   "main": "dist/index.js",
