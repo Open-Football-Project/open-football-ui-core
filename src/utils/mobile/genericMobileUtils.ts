@@ -15,6 +15,7 @@ export enum MobileRoutes {
   MATCH_DETAILS = 'match-details',
   MATCHES = 'matches',
   PLAYER_HISTORY = 'player-history',
+  SUPPORT_US = 'support-us',
   TEAM_DETAILS = 'team-details',
   TODAY_PLAYERS = 'today-players',
 }
